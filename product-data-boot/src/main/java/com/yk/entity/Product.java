@@ -12,6 +12,8 @@ public class Product {
 	private int  code;
 	@Column(name="pname" , length = 30)
 	private String name;
+
+	private String surname;
 	
 	private double price;
 	@Column(length=20)
